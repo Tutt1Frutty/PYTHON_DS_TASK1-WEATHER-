@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "5936c687-10a7-4846-8e07-57efb93feabb",
+		"name": "DS_PYTHON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32980156"
+	},
+	"item": [
+		{
+			"name": "Task1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\":\"ThisIsMyAPIToken\",\r\n    \"requester_name\": \"Maksym Zhersh AM-2\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-02-18\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.60.17.53:8000/content/api/v1/integration/generate",
+					"protocol": "http",
+					"host": [
+						"13",
+						"60",
+						"17",
+						"53"
+					],
+					"port": "8000",
+					"path": [
+						"content",
+						"api",
+						"v1",
+						"integration",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
